@@ -1,0 +1,19 @@
+@import url("https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular");
+.m {
+  font-family: "BMWTypeNext Pro Regular";
+}
+body {
+  font-family: "BMWTypeNext Pro Regular";
+}
+.bimg {
+  background-color: transparent;
+  border: white;
+}
+.dd {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
+  border: 1px solid rgba(255, 255,  255,  0.25);
+}

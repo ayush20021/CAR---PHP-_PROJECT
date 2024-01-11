@@ -1,0 +1,140 @@
+@import url("https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular");
+.b1 {
+  border: black dotted;
+}
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover:after {
+  opacity: 1;
+}
+
+body {
+  font-family: "BMWTypeNext Pro Regular";
+  color: black;
+}
+
+/* body {
+  background-image: url(IMG/BACKGROUND\ IMG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+.a1 {
+  margin-top: 250px;
+  color: rgb(0, 0, 0);
+}
+video {
+  width: 100%;
+  height: auto;
+  outline: none;
+  margin-top: 170px;
+}
+
+.c1 {
+  background-color: white;
+}
+
+.bt {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  min-width: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.j1 {
+  background-image: url(IMG/7.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  outline: none;
+  height: 600px;
+}
+.d1 {
+  padding-top: 250px;
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+}
+.d2 {
+  padding-left: 30px;
+  color: white;
+}
+.bt1 {
+  background-color: transparent;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  color: white;
+  border: 3px white dashed;
+}
+.h {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.e {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin-bottom: 30px;
+  padding-left: 50px;
+}
+.pp {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1rem;
+  padding-left: 50px;
+}
+.bb {
+  border: 2px black solid;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+  color: black;
+}
+.dls {
+  padding-left: 30px;
+  color: white;
+}
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+  right: auto;
+  top: 40%;
+}
+.kbtn {
+  margin-top: 10px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: transparent;
+  border: 3px white solid;
+  color: white;
+  border-radius: 3px;
+}
+
+.fc {
+  padding-top: 80px;
+}
+.bg-dark {
+  background-color: #f6f6f6 !important;
+}

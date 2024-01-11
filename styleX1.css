@@ -1,0 +1,59 @@
+@import url("https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular");
+.b1 {
+  border: black dotted;
+}
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-link:hover:after {
+  opacity: 1;
+}
+
+body {
+  font-family: "BMWTypeNext Pro Regular";
+  color: black;
+}
+.carousel-caption {
+  text-align: left;
+  left: 5%;
+  right: auto;
+  top: 15%;
+}
+.kbtn {
+  margin-top: 30px;
+  padding: 1rem 6rem 1rem 6rem;
+  background-color: rgb(93, 93, 252);
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+.kbtn1 {
+  margin-top: 30px;
+  padding: 1rem 5rem 1rem 6rem;
+  background-color: rgb(69, 69, 69);
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+.dd {
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.4px);
+  -webkit-backdrop-filter: blur(6.4px);
+  border: 1px solid rgba(255, 255,  255,  0.25);
+}
+.bg-dark {
+  background-color: #f6f6f6 !important;
+}
